@@ -87,8 +87,8 @@ as well as queues. Just append/push or pop/remove as you need from either end.
 from collections import deque
 
 foo = deque()
-foo = ([], maxlen=10) # won't ever be bigger than 10 items
-foo = ('a', 'b', 'c')
+foo = deque([], maxlen=10) # won't ever be bigger than 10 items
+foo = deque('a', 'b', 'c')
 
 foo.append('x') # add to end
 foo.pop() # remove from end
