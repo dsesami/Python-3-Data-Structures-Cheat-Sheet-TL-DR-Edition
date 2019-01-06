@@ -99,5 +99,5 @@ foo.popleft() # remove from beginning
 
 Note: Built-in functions for data structures also work as conversion functions. 
 `set('xyz')` and `set(['x', 'y', 'z'])` would both create a set
-that looks like `{'x' 'y', 'z'}`.
+that looks like `{'x', 'y', 'z'}`.
 
