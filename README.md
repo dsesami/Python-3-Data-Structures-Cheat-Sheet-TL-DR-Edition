@@ -19,7 +19,7 @@ for i in foo: # iterates over collection (with dictionaries, iterates over keys)
 
 ## How do I use a...?
 #### List
-Ordered, simple, they're arrays, we've all done this before.
+Ordered, simple, we've all done this before.
 ```
 foo = []
 foo = list()
@@ -33,7 +33,7 @@ foo.pop() # returns 'd' and removes it from the list.
 foo.pop() # returns 'x' and removes it from the list.
 ```
 #### Dictionary
-These don't guarantee order in Python 3.
+These now have guaranteed order in Python 3.7.
 ```
 foo = {}
 foo = dict()
